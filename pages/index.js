@@ -7,11 +7,14 @@ import {
   iconInstagram,
 } from '../components/icons';
 
+import Favicons from '../components/Favicons';
+
 export default function Home() {
   return (
     <>
       <Head>
         <title>Matías Kochlowski</title>
+        <Favicons />
       </Head>
       <header className=''></header>
       <main className=''>
