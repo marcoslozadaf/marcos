@@ -13,7 +13,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Matías Kochlowski</title>
+        <title>Marcos Lozada Freytes</title>
         <Favicons />
       </Head>
       <header className=''></header>
@@ -24,13 +24,13 @@ export default function Home() {
               <div className='flex items-center'>
                 <img
                   className='h-16 w-16 rounded-full mr-4 shadow-lg border border-white'
-                  src='/images/matiasKochlowski.jpg'
+                  src='/images/marcoslozada.jpg'
                   alt=''
                   width={300}
                   height={300}
                 />
                 <h3 className='text-lg leading-none font-medium text-gray-900 dark:text-white dark:text-white'>
-                  Matías Kochlowski
+                  Marcos Lozada Freytes
                 </h3>
               </div>
             </div>
@@ -41,26 +41,29 @@ export default function Home() {
                 <div className='py-2 sm:py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6'>
                   <dt className='text-sm font-medium text-gray-400'>E-mail</dt>
                   <dd className='mt-1 text-sm text-gray-900 dark:text-white sm:mt-0 sm:col-span-2'>
-                    matias@kochlowski.com
+                    marcoslozadaf@gmail.com | marcos@baas256.com
                   </dd>
                 </div>
                 <div className='py-2 sm:py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6'>
                   <dt className='text-sm font-medium text-gray-400'>Profession</dt>
                   <dd className='mt-1 text-sm text-gray-900 dark:text-white sm:mt-0 sm:col-span-2'>
-                    Full-Stack Web Developer: Javascript
+                  Systems Engineer. Co-Founder at Baas256 | Balloon Dapp. Blockchain Seminar Professor at Catholic University of Cordoba
                   </dd>
                 </div>
                 <div className='py-2 sm:py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6'>
                   <dt className='text-sm font-medium text-gray-400'>Experience</dt>
                   <dd className='mt-1 text-sm text-gray-900 dark:text-white sm:mt-0 sm:col-span-2'>
                     <span className='inline-flex items-center px-2.5 py-0.5 rounded-md text-sm font-medium bg-gray-100 dark:bg-black text-gray-800 mr-3 dark:text-white mb-1'>
-                      Web Development
+                      Blockchain Development
                     </span>
                     <span className='inline-flex items-center px-2.5 py-0.5 rounded-md text-sm font-medium bg-gray-100 dark:bg-black text-gray-800 mr-3 dark:text-white mb-1'>
-                      Cloud Infrastructure
+                      Data Science
                     </span>
                     <span className='inline-flex items-center px-2.5 py-0.5 rounded-md text-sm font-medium bg-gray-100 dark:bg-black text-gray-800 mr-3 dark:text-white mb-1'>
-                      Digital Marketing
+                      Full Stack Web Development 
+                    </span>
+                    <span className='inline-flex items-center px-2.5 py-0.5 rounded-md text-sm font-medium bg-gray-100 dark:bg-black text-gray-800 mr-3 dark:text-white mb-1'>
+                      Test Automation 
                     </span>
                   </dd>
                 </div>
@@ -157,27 +160,27 @@ const techStack = [
 const social = [
   {
     name: 'GitHub',
-    href: 'https://github.com/matiaskochlowski',
+    href: 'https://github.com/marcoslozadaf',
     icon: iconGithub,
   },
   {
     name: 'LinkedIn',
-    href: 'https://www.linkedin.com/in/matias-kochlowski-62034679',
+    href: 'https://www.linkedin.com/in/marcoslozadafreytes/',
     icon: iconLinkedIn,
   },
   {
     name: 'Instagram',
-    href: 'https://instagram.com/matiaskochlowski',
+    href: 'https://instagram.com/marcoslozada',
     icon: iconInstagram,
   },
   {
     name: 'Twitter',
-    href: 'https://twitter.com/matikochlowski',
+    href: 'https://twitter.com/marcoslozadaf',
     icon: iconTwitter,
   },
   {
     name: 'Facebook',
-    href: 'https://facebook.com/matiaskochlowski',
+    href: 'https://www.facebook.com/marcoslozadaf',
     icon: iconFacebook,
   },
 ];

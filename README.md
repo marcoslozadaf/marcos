@@ -1,5 +1,5 @@
-# Matías Kochlowski Profile Page
+# Marcos Lozada Freytes Profile Page
 
 Simple Profile created using Next.js & TailwindCSS
 
-View on https://matias.kochlowski.com
+View on https://marcos.lozada.xyz
