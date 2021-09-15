@@ -4,7 +4,7 @@ export default function Custom404() {
   return (
     <div>
       <Head>
-        <title>404 - Kochlowski</title>
+        <title>404 - Lozada</title>
       </Head>
       <header className='bg-white'></header>
       <main className='bg-white overflow-hidden '>
