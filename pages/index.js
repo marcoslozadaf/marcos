@@ -141,6 +141,13 @@ const techStack = [
     docs: 'https://expressjs.com/en/4x/api.html',
   },
   {
+    name: 'ethereum',
+    logo: '/images/tech-stack/ethereum.svg',
+    height: 48,
+    width: 100,
+    docs: 'https://ethereum.org/es/',
+  },
+  {
     name: 'MongoDB',
     logo: '/images/tech-stack/mongodb.svg',
     height: 48,
