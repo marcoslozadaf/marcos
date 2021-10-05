@@ -47,7 +47,7 @@ export default function Home() {
                 <div className='py-2 sm:py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6'>
                   <dt className='text-sm font-medium text-gray-400'>Profession</dt>
                   <dd className='mt-1 text-sm text-gray-900 dark:text-white sm:mt-0 sm:col-span-2'>
-                  Systems Engineer. Co-Founder at Baas256 | Balloon Dapp. Blockchain Seminar Professor at Catholic University of Cordoba
+                  Systems Engineer. Co-Founder at Baas256 | Balloon Dapp. Blockchain Professor at Catholic University of Córdoba
                   </dd>
                 </div>
                 <div className='py-2 sm:py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6'>
