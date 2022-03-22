@@ -41,13 +41,13 @@ export default function Home() {
                 <div className='py-2 sm:py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6'>
                   <dt className='text-sm font-medium text-gray-400'>E-mail</dt>
                   <dd className='mt-1 text-sm text-gray-900 dark:text-white sm:mt-0 sm:col-span-2'>
-                  marcos.lozada@ucc.edu.ar | marcos@baas256.com | marcoslozadaf@gmail.com
+                  marcos@bircle.io | marcos.lozada@ucc.edu.ar | marcos@baas256.com | marcoslozadaf@gmail.com
                   </dd>
                 </div>
                 <div className='py-2 sm:py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6'>
                   <dt className='text-sm font-medium text-gray-400'>Profession</dt>
                   <dd className='mt-1 text-sm text-gray-900 dark:text-white sm:mt-0 sm:col-span-2'>
-                  Systems Engineer. Co-Founder at Baas256 | Balloon Dapp. Blockchain Professor at Catholic University of Córdoba
+                  Co-Founder at Bircle | Co-Founder at Baas256 | Software Engineer and Blockchain Seminar Lecturer at Catholic University of Córdoba
                   </dd>
                 </div>
                 <div className='py-2 sm:py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6'>
@@ -78,7 +78,7 @@ export default function Home() {
                   <dd className='mt-1 text-sm text-gray-900 dark:text-white sm:mt-0 sm:col-span-2 grid grid-cols-4'>
                     {techStack.map((tech) => (
                       <div key={tech.name} className='flex flex-col overflow-hidden'>
-                        <div className='flex-1 py-1 mr-3'>
+                        <div className='flex-1 py-1 mr-3 justify-between'>
                           <img
                             className='h-10'
                             src={tech.logo}
@@ -160,6 +160,20 @@ const techStack = [
     height: 48,
     width: 55,
     docs: 'https://nextjs.org/docs',
+  },
+  {
+    name: 'Ethereum',
+    logo: '/images/tech-stack/ethereum.svg',
+    height: 68,
+    width: 75,
+    docs: 'https://ethereum.org/en/developers/',
+  },
+  {
+    name: 'Polygon',
+    logo: '/images/tech-stack/polygon.svg',
+    height: 68,
+    width: 75,
+    docs: 'https://docs.polygon.technology/',
   },
 ];
 
