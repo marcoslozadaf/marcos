@@ -45,9 +45,15 @@ export default function Home() {
                   </dd>
                 </div>
                 <div className='py-2 sm:py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6'>
+                  <dt className='text-sm font-medium text-gray-400'>Phone - Telegram - Discord</dt>
+                  <dd className='mt-1 text-sm text-gray-900 dark:text-white sm:mt-0 sm:col-span-2'>
+                  +5493516152680 | @marcoslozada | lozada.eth#9810
+                  </dd>
+                </div>
+                <div className='py-2 sm:py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6'>
                   <dt className='text-sm font-medium text-gray-400'>Profession</dt>
                   <dd className='mt-1 text-sm text-gray-900 dark:text-white sm:mt-0 sm:col-span-2'>
-                  Co-Founder at Bircle | Co-Founder at Baas256 | Software Engineer and Blockchain Seminar Lecturer at Catholic University of Córdoba
+                  Co-Founder at Bircle | Co-Founder and CEO at Baas256 | Software Engineer and Blockchain Seminar Lecturer at Catholic University of Córdoba
                   </dd>
                 </div>
                 <div className='py-2 sm:py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6'>
