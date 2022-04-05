@@ -45,9 +45,9 @@ export default function Home() {
                   </dd>
                 </div>
                 <div className='py-2 sm:py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6'>
-                  <dt className='text-sm font-medium text-gray-400'>Phone - Telegram - Discord</dt>
+                  <dt className='text-sm font-medium text-gray-400'>Phone - Telegram</dt>
                   <dd className='mt-1 text-sm text-gray-900 dark:text-white sm:mt-0 sm:col-span-2'>
-                  +5493516152680 | @marcoslozada | lozada.eth#9810
+                  +5493516152680 | @marcoslozada 
                   </dd>
                 </div>
                 <div className='py-2 sm:py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6'>
