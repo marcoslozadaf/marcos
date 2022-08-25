@@ -41,7 +41,7 @@ export default function Home() {
                 <div className='py-2 sm:py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6'>
                   <dt className='text-sm font-medium text-gray-400'>E-mail</dt>
                   <dd className='mt-1 text-sm text-gray-900 dark:text-white sm:mt-0 sm:col-span-2'>
-                  marcos@bircle.io | marcos.lozada@ucc.edu.ar | marcos@baas256.com | marcoslozadaf@gmail.com
+                  marcos@bircle.io | marcos.lozada@ucc.edu.ar | marcoslozadaf@gmail.com
                   </dd>
                 </div>
                 <div className='py-2 sm:py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6'>
@@ -53,7 +53,7 @@ export default function Home() {
                 <div className='py-2 sm:py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6'>
                   <dt className='text-sm font-medium text-gray-400'>Profession</dt>
                   <dd className='mt-1 text-sm text-gray-900 dark:text-white sm:mt-0 sm:col-span-2'>
-                  Co-Founder at Bircle | Co-Founder and CEO at Baas256 | Software Engineer and Blockchain Seminar Lecturer at Catholic University of Córdoba
+                  Software Engineer and Blockchain Professor at @UCCoficial | @latitudlatam LF7 | CoFounder at @bircle_ | @techstars 🌟 Mentor + @cxndao Member 💫 | minted 🇦🇷
                   </dd>
                 </div>
                 <div className='py-2 sm:py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6'>
