@@ -24,7 +24,7 @@ export default function Home() {
               <div className='flex items-center'>
                 <img
                   className='h-16 w-16 rounded-full mr-4 shadow-lg border border-white'
-                  src='/images/marcoslozada.jpg'
+                  src='/images/marcoslozada.JPEG'
                   alt=''
                   width={300}
                   height={300}
@@ -41,19 +41,49 @@ export default function Home() {
                 <div className='py-2 sm:py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6'>
                   <dt className='text-sm font-medium text-gray-400'>E-mail</dt>
                   <dd className='mt-1 text-sm text-gray-900 dark:text-white sm:mt-0 sm:col-span-2'>
-                  marcos@bircle.io | marcos.lozada@ucc.edu.ar | marcoslozadaf@gmail.com
+                  <a  target='_blank' href='mailto:marcos@bircle.io' className='hover:text-blue-400'>marcos@bircle.io</a> | <a target='_blank' href='mailto:marcos.lozada@ucc.edu.ar' className='hover:text-blue-400'>marcos.lozada@ucc.edu.ar</a> | <a  target='_blank' href='mailto:marcoslozadaf@gmail.com' className='hover:text-blue-400'>marcoslozadaf@gmail.com</a>
                   </dd>
                 </div>
                 <div className='py-2 sm:py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6'>
-                  <dt className='text-sm font-medium text-gray-400'>Phone - Telegram</dt>
-                  <dd className='mt-1 text-sm text-gray-900 dark:text-white sm:mt-0 sm:col-span-2'>
-                  +5493516152680 | @marcoslozada 
-                  </dd>
-                </div>
+                <dt className='text-sm font-medium text-gray-400'>Phone - Telegram</dt>
+                <dd className='mt-1 text-sm text-gray-900 dark:text-white sm:mt-0 sm:col-span-2'>
+                  <a target='_blank' href="https://api.whatsapp.com/send?phone=5493516152680" className='hover:text-blue-400'>+5493516152680</a> | 
+                  <a target='_blank' href="https://t.me/marcoslozada" className='hover:text-blue-400'> @marcoslozada</a>
+                </dd>
+              </div>
                 <div className='py-2 sm:py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6'>
                   <dt className='text-sm font-medium text-gray-400'>Profession</dt>
                   <dd className='mt-1 text-sm text-gray-900 dark:text-white sm:mt-0 sm:col-span-2'>
-                  Software Engineer and Blockchain Professor at @UCCoficial | @latitudlatam LF7 | CoFounder at @bircle_ | @techstars 🌟 Mentor + @cxndao Member 💫 | minted 🇦🇷
+                  CoFounder at <a target='_blank' href='https://twitter.com/bircle_' className='hover:text-blue-400'>@bircle_</a> ♾️ - Superpowers for fashion brands 🚀 | Software Engineer & Blockchain Professor <a target='_blank' href='https://twitter.com/UCCoficial' className='hover:text-blue-400' >@UCCoficial</a> | <a target='_blank' href='https://twitter.com/WhartonCypher' className='hover:text-blue-400'>@WhartonCypher</a> Fortis | <a target='_blank' href='https://twitter.com/platan_ventures' className='hover:text-blue-400'>@platan_ventures</a> 22-2 | Programs at <a target='_blank' href='https://twitter.com/CXNDAO' className='hover:text-blue-400'>@CXNDAO</a> 💫 | minted 🇦🇷 | lozada.eth - lozada.lens
+                  </dd>
+                </div>
+                <div className='py-2 sm:py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6'>
+                  <dt className='text-sm font-medium text-gray-400'>Book</dt>
+                  <dd className='mt-1 text-sm text-gray-900 dark:text-white sm:mt-0 sm:col-span-2'>
+                    <span className='inline-flex items-center px-2.5 py-0.5 rounded-md text-sm font-medium bg-gray-100 dark:bg-black text-gray-800 mr-3 dark:text-white mb-1'>
+                    <a target='_blank' href="https://cal.com/marcoslozada/15min?duration=15" className='hover:text-blue-400'>15 min meeting</a>
+                    </span>
+                    <span className='inline-flex items-center px-2.5 py-0.5 rounded-md text-sm font-medium bg-gray-100 dark:bg-black text-gray-800 mr-3 dark:text-white mb-1'>
+                    <a target='_blank' href="https://cal.com/marcoslozada/30min?duration=30" className='hover:text-blue-400'>30 min meeting</a>
+                    </span>
+                  </dd>
+                </div>
+
+                <div className='py-2 sm:py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6'>
+                  <dt className='text-sm font-medium text-gray-400'>Social</dt>
+                  <dd className='mt-1 text-sm text-gray-900 dark:text-white sm:mt-0 sm:col-span-2'>
+                    <div className='space-x-8 lg:space-x-12 md:order-2 flex items-center '>
+                      {social.map((item) => (
+                        <a
+                          key={item.name}
+                          href={item.href}
+                          className='text-gray-400 hover:text-gray-700 dark:text-white dark:hover:text-gray-300'
+                        >
+                          <span className='sr-only'>{item.name}</span>
+                          <item.icon className='h-6 w-6' aria-hidden='true' />
+                        </a>
+                      ))}
+                    </div>
                   </dd>
                 </div>
                 <div className='py-2 sm:py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6'>
@@ -72,13 +102,15 @@ export default function Home() {
                       Data Science
                     </span>
                     <span className='inline-flex items-center px-2.5 py-0.5 rounded-md text-sm font-medium bg-gray-100 dark:bg-black text-gray-800 mr-3 dark:text-white mb-1'>
-                      Full Stack Web Development 
+                      Software Engineer
                     </span>
                     <span className='inline-flex items-center px-2.5 py-0.5 rounded-md text-sm font-medium bg-gray-100 dark:bg-black text-gray-800 mr-3 dark:text-white mb-1'>
-                      Test Automation 
+                      Full Stack Web Development 
                     </span>
+                    
                   </dd>
                 </div>
+                
                 <div className='py-2 sm:py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6'>
                   <dt className='text-sm font-medium text-gray-400'>Preferred Stack</dt>
                   <dd className='mt-1 text-sm text-gray-900 dark:text-white sm:mt-0 sm:col-span-2 grid grid-cols-4'>
@@ -95,23 +127,6 @@ export default function Home() {
                         </div>
                       </div>
                     ))}
-                  </dd>
-                </div>
-                <div className='py-2 sm:py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6'>
-                  <dt className='text-sm font-medium text-gray-400'>Social</dt>
-                  <dd className='mt-1 text-sm text-gray-900 dark:text-white sm:mt-0 sm:col-span-2'>
-                    <div className='space-x-6 md:order-2 flex items-center'>
-                      {social.map((item) => (
-                        <a
-                          key={item.name}
-                          href={item.href}
-                          className='text-gray-400 hover:text-gray-700 dark:text-white dark:hover:text-gray-300'
-                        >
-                          <span className='sr-only'>{item.name}</span>
-                          <item.icon className='h-6 w-6' aria-hidden='true' />
-                        </a>
-                      ))}
-                    </div>
                   </dd>
                 </div>
               </dl>
@@ -184,26 +199,31 @@ const techStack = [
 ];
 
 const social = [
-  {
-    name: 'GitHub',
-    href: 'https://github.com/marcoslozadaf',
-    icon: iconGithub,
-  },
+  
   {
     name: 'LinkedIn',
     href: 'https://www.linkedin.com/in/marcoslozadafreytes/',
     icon: iconLinkedIn,
   },
-  {
-    name: 'Instagram',
-    href: 'https://instagram.com/marcoslozada',
-    icon: iconInstagram,
-  },
+
   {
     name: 'Twitter',
     href: 'https://twitter.com/marcoslozadaf',
     icon: iconTwitter,
   },
+
+  {
+    name: 'Instagram',
+    href: 'https://instagram.com/marcoslozada',
+    icon: iconInstagram,
+  },
+
+  {
+    name: 'GitHub',
+    href: 'https://github.com/marcoslozadaf',
+    icon: iconGithub,
+  },
+
   {
     name: 'Facebook',
     href: 'https://www.facebook.com/marcoslozadaf',
