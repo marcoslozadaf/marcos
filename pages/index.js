@@ -41,7 +41,7 @@ export default function Home() {
                 <div className='py-2 sm:py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6'>
                   <dt className='text-sm font-medium text-gray-400'>E-mail</dt>
                   <dd className='mt-1 text-sm text-gray-900 dark:text-white sm:mt-0 sm:col-span-2'>
-                  <a  target='_blank' href='mailto:marcos@bircle.io' className='hover:text-blue-400'>marcos@bircle.io</a> | <a target='_blank' href='mailto:marcos.lozada@ucc.edu.ar' className='hover:text-blue-400'>marcos.lozada@ucc.edu.ar</a> | <a  target='_blank' href='mailto:marcoslozadaf@gmail.com' className='hover:text-blue-400'>marcoslozadaf@gmail.com</a>
+                  <a  target='_blank' href='mailto:marcos@ropero.io' className='hover:text-blue-400'>marcos@ropero.io</a> - <a  target='_blank' href='mailto:marcos@bircle.io' className='hover:text-blue-400'>marcos@bircle.io</a> | <a target='_blank' href='mailto:marcos.lozada@ucc.edu.ar' className='hover:text-blue-400'>marcos.lozada@ucc.edu.ar</a> | <a  target='_blank' href='mailto:marcoslozadaf@gmail.com' className='hover:text-blue-400'>marcoslozadaf@gmail.com</a>
                   </dd>
                 </div>
                 <div className='py-2 sm:py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6'>
@@ -54,7 +54,7 @@ export default function Home() {
                 <div className='py-2 sm:py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6'>
                   <dt className='text-sm font-medium text-gray-400'>Profession</dt>
                   <dd className='mt-1 text-sm text-gray-900 dark:text-white sm:mt-0 sm:col-span-2'>
-                  CoFounder at <a target='_blank' href='https://twitter.com/bircle_' className='hover:text-blue-400'>@bircle_</a> ♾️ - Superpowers for fashion brands 🚀 | Software Engineer & Blockchain Professor <a target='_blank' href='https://twitter.com/UCCoficial' className='hover:text-blue-400' >@UCCoficial</a> | <a target='_blank' href='https://twitter.com/WhartonCypher' className='hover:text-blue-400'>@WhartonCypher</a> Fortis | <a target='_blank' href='https://twitter.com/platan_ventures' className='hover:text-blue-400'>@platan_ventures</a> 22-2 | Programs at <a target='_blank' href='https://twitter.com/CXNDAO' className='hover:text-blue-400'>@CXNDAO</a> 💫 | minted 🇦🇷 | lozada.eth - lozada.lens
+                  CoFounder at [<a target='_blank' href='https://ropero.io/' className='hover:text-blue-400'> Ropero</a> - <a target='_blank' href='https://bircle.io/' className='hover:text-blue-400'>Bircle </a>] | Software Engineer & Blockchain Professor <a target='_blank' href='https://twitter.com/UCCoficial' className='hover:text-blue-400' >@UCCoficial</a> | <a target='_blank' href='https://twitter.com/WhartonCypher' className='hover:text-blue-400'>@WhartonCypher</a> '23 | <a target='_blank' href='https://twitter.com/platan_ventures' className='hover:text-blue-400'>@platan_ventures</a> 22-2 | 🇦🇷 
                   </dd>
                 </div>
                 <div className='py-2 sm:py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6'>
