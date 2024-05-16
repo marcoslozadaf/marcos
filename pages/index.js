@@ -119,7 +119,7 @@ export default function Home() {
                     >
                       @PlatanusVentures
                     </a>{" "}
-                    22-2 | 🇦🇷
+                    22-2 | 🇦🇷 🇮🇹 🇺🇸
                   </dd>
                 </div>
                 <div className="py-2 sm:py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
