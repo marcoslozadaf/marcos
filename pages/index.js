@@ -77,7 +77,7 @@ export default function Home() {
                       href="https://api.whatsapp.com/send?phone=5493516152680"
                       className="hover:text-blue-400"
                     >
-                      +5493516152680
+                      WhatsApp
                     </a>{" "}
                     |
                     <a
