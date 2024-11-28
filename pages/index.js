@@ -2,9 +2,9 @@ import Head from "next/head";
 import {
   iconGithub,
   iconLinkedIn,
-  iconTwitter,
   iconFacebook,
   iconInstagram,
+  iconTwitter,
 } from "../components/icons";
 
 import Favicons from "../components/Favicons";
@@ -44,10 +44,10 @@ export default function Home() {
                     {/* <a  target='_blank' href='mailto:marcos@ropero.io' className='hover:text-blue-400'>marcos@ropero.io</a> - <a  target='_blank' href='mailto:marcos@bircle.io' className='hover:text-blue-400'>marcos@bircle.io</a> | <a target='_blank' href='mailto:marcos.lozada@ucc.edu.ar' className='hover:text-blue-400'>marcos.lozada@ucc.edu.ar</a> | <a  target='_blank' href='mailto:marcoslozadaf@gmail.com' className='hover:text-blue-400'>marcoslozadaf@gmail.com</a> */}
                     <a
                       target="_blank"
-                      href="mailto:email@marcoslozada.com"
+                      href="mailto:marcos@bircle.ai"
                       className="hover:text-blue-400"
                     >
-                      email@marcoslozada.com
+                      marcos@bircle.ai
                     </a>{" "}
                     |{" "}
                     <a
@@ -60,10 +60,10 @@ export default function Home() {
                     |{" "}
                     <a
                       target="_blank"
-                      href="mailto:marcoslozadaf@gmail.com"
+                      href="mailto:email@marcoslozada.com"
                       className="hover:text-blue-400"
                     >
-                      marcoslozadaf@gmail.com
+                      email@marcoslozada.com
                     </a>
                   </dd>
                 </div>
@@ -77,7 +77,7 @@ export default function Home() {
                       href="https://api.whatsapp.com/send?phone=5493516152680"
                       className="hover:text-blue-400"
                     >
-                      WhatsApp
+                      👉🏽 WhatsApp
                     </a>{" "}
                     |
                     <a
@@ -101,25 +101,33 @@ export default function Home() {
                       href="https://twitter.com/UCCoficial"
                       className="hover:text-blue-400"
                     >
-                      @UCCoficial
+                      UCC
                     </a>{" "}
                     |{" "}
                     <a
                       target="_blank"
-                      href="https://twitter.com/WhartonCypher"
+                      href="https://aws.amazon.com/es/startups/generative-ai/accelerator/"
                       className="hover:text-blue-400"
                     >
-                      @WhartonCypher
+                      AWS GenAI
+                    </a>{" "}
+                    '24 |{" "}
+                    <a
+                      target="_blank"
+                      href="https://cypher.wharton.upenn.edu/companies"
+                      className="hover:text-blue-400"
+                    >
+                      Wharton Cypher
                     </a>{" "}
                     '23 |{" "}
                     <a
                       target="_blank"
-                      href="https://twitter.com/platan_ventures"
+                      href="https://platan.us/"
                       className="hover:text-blue-400"
                     >
-                      @PlatanusVentures
+                      Platanus Ventures
                     </a>{" "}
-                    22-2 | 🇦🇷 🇮🇹 🇺🇸
+                    '22 | 🇦🇷 🇮🇹 🇺🇸
                   </dd>
                 </div>
                 <div className="py-2 sm:py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
@@ -172,6 +180,18 @@ export default function Home() {
                       Blockchain Development
                     </span> */}
                     <span className="inline-flex items-center px-2.5 py-0.5 rounded-md text-sm font-medium bg-gray-100 dark:bg-black text-gray-800 mr-3 dark:text-white mb-1">
+                      Generative AI
+                    </span>
+                    <span className="inline-flex items-center px-2.5 py-0.5 rounded-md text-sm font-medium bg-gray-100 dark:bg-black text-gray-800 mr-3 dark:text-white mb-1">
+                      Debt Collection
+                    </span>
+                    <span className="inline-flex items-center px-2.5 py-0.5 rounded-md text-sm font-medium bg-gray-100 dark:bg-black text-gray-800 mr-3 dark:text-white mb-1">
+                      BPO
+                    </span>
+                    <span className="inline-flex items-center px-2.5 py-0.5 rounded-md text-sm font-medium bg-gray-100 dark:bg-black text-gray-800 mr-3 dark:text-white mb-1">
+                      Healthtech
+                    </span>
+                    <span className="inline-flex items-center px-2.5 py-0.5 rounded-md text-sm font-medium bg-gray-100 dark:bg-black text-gray-800 mr-3 dark:text-white mb-1">
                       Business Management
                     </span>
                     <span className="inline-flex items-center px-2.5 py-0.5 rounded-md text-sm font-medium bg-gray-100 dark:bg-black text-gray-800 mr-3 dark:text-white mb-1">
@@ -185,12 +205,6 @@ export default function Home() {
                     </span>
                     <span className="inline-flex items-center px-2.5 py-0.5 rounded-md text-sm font-medium bg-gray-100 dark:bg-black text-gray-800 mr-3 dark:text-white mb-1">
                       Full-Stack Development
-                    </span>
-                    <span className="inline-flex items-center px-2.5 py-0.5 rounded-md text-sm font-medium bg-gray-100 dark:bg-black text-gray-800 mr-3 dark:text-white mb-1">
-                      Generative AI
-                    </span>
-                    <span className="inline-flex items-center px-2.5 py-0.5 rounded-md text-sm font-medium bg-gray-100 dark:bg-black text-gray-800 mr-3 dark:text-white mb-1">
-                      Healthtech
                     </span>
                   </dd>
                 </div>
@@ -219,9 +233,7 @@ export default function Home() {
                   </dd>
                 </div>
                 <div className="py-2 sm:py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
-                  <dt className="text-sm font-medium text-gray-400">
-                    Connect
-                  </dt>
+                  <dt className="text-sm font-medium text-gray-400">Connect</dt>
                   <dd className="mt-1 text-sm text-gray-900 dark:text-white sm:mt-0 sm:col-span-2">
                     <span className="inline-flex items-center px-2.5 py-0.5 rounded-md text-sm font-medium bg-gray-100 dark:bg-black text-gray-800 mr-3 dark:text-white mb-1">
                       <a
