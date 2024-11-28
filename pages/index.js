@@ -95,7 +95,16 @@ export default function Home() {
                     Profession
                   </dt>
                   <dd className="mt-1 text-sm text-gray-900 dark:text-white sm:mt-0 sm:col-span-2">
-                    Software Engineer at{" "}
+                    Co-Founder at{" "}
+                    <a
+                      target="_blank"
+                      href="https://bircle.ai"
+                      className="hover:text-blue-400"
+                    >
+                      BircleAI
+                    </a>{" "}
+                    | Engineer, Data Science, Fintech, 24/7 collections <br />
+                    <br /> Software Engineer at{" "}
                     <a
                       target="_blank"
                       href="https://twitter.com/UCCoficial"
@@ -127,7 +136,8 @@ export default function Home() {
                     >
                       Platanus Ventures
                     </a>{" "}
-                    '22 | 🇦🇷 🇮🇹 🇺🇸
+                    '22 <br />
+                    <br /> 🇦🇷 🇮🇹 🇺🇸
                   </dd>
                 </div>
                 <div className="py-2 sm:py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
